@@ -1,0 +1,392 @@
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <!-- Material Design fonts -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- Bootstrap -->
+  <!-- <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Bootstrap Material Design -->
+  <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-material-design.css">
+  <link rel="stylesheet" type="text/css" href="dist/css/ripples.min.css">
+  <style>
+  body {
+  	padding-top: 70px;
+  	font-weight: normal;
+    font-size: 14px;
+  }
+  th {
+  	font-weight: bold;
+  }
+	th, td {
+	    font-size: 14px;
+	    padding: 10px;
+	    border: solid 1px lightgrey;
+	}
+  .well {
+    font-size: 16px;
+    position: relative;
+  }
+  .question {
+  	margin-bottom: 20px;
+  }
+/*  .well:after {
+    content: "";
+    background: url("dist/img/task1.jpg");
+    opacity: 0.15;
+    filter: alpha(opacity=15);
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }*/
+  .well p {
+      font-weight: normal !important;
+  }
+	.topic {
+
+	}
+	.reading {
+		max-width: 450px;
+	}
+	.no-class {
+		background-color: lightgrey;
+	}
+  .due {
+    font-weight: bold;
+  }
+  </style>
+  <title>CS408E: Computer Science Project | KAIST Fall 2018</title>
+</head>
+<body>
+
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">CS408E: Computer Science Project</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="projects.html">Presentations</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid main">
+  <div class="row">
+    <div class="col-md-12">
+          <div class="well">
+            <h1>Presentations</h1>
+            <p>All presentations must be in English.</p>
+
+            <ul>
+              <li>Project Pitch</li>
+              <ul>
+                <li>Each pitch should be in 6 minutes including Q&A, and it is STRONGLY recommended the presenters leave enough time for Q&A.</li>
+                <li>Grading criteria:</li>
+                <ul>
+                  <li>clear definition of the problem</li>
+                  <li>convincing argument of why the problem is important and/or interesting</li>
+                  <li>overall presentation quality, including the slides</li>
+                  <li>passion</li>
+                  <li>presentation teamwork</li>
+                </ul>
+				<li>Presentation Order:</li>
+<!--
+                <ul>
+                  <li>Team 1: 김영석/김재헌/박재준 material: <a href="https://drive.google.com/open?id=1yJQX8_wE6bZQr0Fdi_ckPNO-5RK1f-O5">[pptx]</a>, video: <a href="https://www.dropbox.com/s/e2n5clxhb1021zr/CS408E_PP_1_SOBRIETY_INSPECTOR.mp4?dl=0">[mp4]</a></li>
+                  <li>Team 2: 김예준/박찬수/안석찬 material: <a href="https://drive.google.com/open?id=18lIcRAjPvioxrZPMjLMEYrhbs9ngZT74">[zip]</a>, video: <a href="https://www.dropbox.com/s/r8s2loizmt643di/CS408E_PP_2_teamHCI.mp4?dl=0">[mp4]</a></li>
+                  <li>Team 3: 류호빈/이승우/정수빈 material: <a href="https://drive.google.com/open?id=1qa_pbch4NFJv0peD6wBpHTdYaQJBuXY6">[pdf]</a>, video: <a href="https://www.dropbox.com/s/78tf27nvelpyz8w/CS408E_PP_3_HackPlanet.mp4?dl=0">[mp4]</a></li>
+                  <li>Team 4: 박연하/이현종/이혜진 material: <a href="https://drive.google.com/open?id=1I1XBH1VcpT2O4_nq1XKy1PoLxzEfwOz1">[pdf]</a>, video: <a href="https://www.dropbox.com/s/2u8c2xexa36jjfk/CS408E_PP_4_BCEdu.mp4?dl=0">[mp4]</a></li>
+                  <li>Team 5: 신준형/안남조/이승우 material: <a href="https://drive.google.com/open?id=13v3-CpPzkZEykeddJiWfcbZfDT9v5ajC">[pptx]</a>, video: <a href="https://www.dropbox.com/s/2iejoxp3rhrjcuo/CS408E_PP_5_VectorFieldCalcul.mp4?dl=0">[mp4]</a></li>
+				  <li>Team 6: 이주영/지수환/홍영규 material: <a href="https://drive.google.com/open?id=12OkNEYB3fWJn7pauss924qN3UkZ2u_j7">[pdf]</a>, video: <a href="https://www.dropbox.com/s/6ltmv2okz4joiq4/CS408E_PP_6_Paperplane.mp4?dl=0">[mp4]</a></li>
+				  <li>Team 7: 이준성/정창제/최낙현 material: <a href="https://drive.google.com/open?id=1BYh3hyzSoKTg-HDl-Rn_0g8B9cZccfte">[pdf]</a>, video: <a href="https://www.dropbox.com/s/280q6sraqwqjvvz/CS408E_PP_7_AHGforLOL.mp4?dl=0">[mp4]</a></li>
+                </ul>
+-->
+              </ul>
+              <li>Midterm Presentation</li>
+              <ul>
+                <li>Each pitch should be in 10 minutes including Q&A, and it is STRONGLY recommended the presenters leave enough time for Q&A.</li>
+                <li>Grading criteria:</li>
+                <ul>
+                  <li>Problem (30%)</li>
+                  <ul>
+                    <li>Problem definition: refresh the audience what problem you're solving. If you changed the problem since the pitch, must also present why the new problem is important</li>
+                    <li>Project scope: state what exactly you aim to deliver in the end. What would your product or demo look like?</li>
+                  </ul>
+                  <li>Progress (50%)</li>
+                  <ul>
+                    <li>Solution: describe your design space and your solution. Why is your solution better than existing work? What is your secret sauce?</li>
+                    <li>Implementation: report how far along you are in implementation. Show a live demo if you have it (demo here is optional)</li>
+                    <li>Plan: provide concrete plan for implementation and testing. Are you facing unexpected challenges? How do you plan to overcome those issues? Convince the audience that you're on track to deliver.</li>
+                  </ul>
+                  <li>Presentation (20%)</li>
+                  <ul>
+                    <li>Delivery: show competence in overall organization and flow, articulation and clarity of the presentation</li>
+                    <li>Visual aids: make your slides readable and use effective visual aids and examples</li>
+                  </ul>
+                </ul>
+		<li>Presentation Order:</li>
+<!---
+                <ul>
+                  <li>Team 1: 이준성/정창제/최낙현 material: <a href="https://drive.google.com/open?id=1HkK4q9ZOdiGsChqmUDFv-eT4T-ikm0m_">[pdf]</a>, video: <a href="https://drive.google.com/open?id=1bcqSwhQuyWlMGTX-2Olmqc--82TIHIcl">[mp4]</a></li>
+                  <li>Team 2: 이주영/지수환/홍영규 material: <a href="https://drive.google.com/open?id=1damBZzY_g3gtzrQDcr1kDIlGttvtruCL">[pdf & mp4]</a>, video: <a href="https://drive.google.com/open?id=1kAAI5mOLQ39_4UA9xuV3jO2U8BdrK8IX">[mp4]</a></li>
+                  <li>Team 3: 신준형/안남조/이승우 material: <a href="https://drive.google.com/open?id=1POrDPxRZXwTEcuNSsvS2LaGnBf721t0y">[pptx]</a>, video: <a href="https://drive.google.com/open?id=1VS5KgH-69CXXiatuByCx6Q5Tcu5ZMrSY">[mp4]</a></li>
+                  <li>Team 4: 박연하/이현종/이혜진 material: <a href="https://drive.google.com/open?id=1DPkDhC6NYgzvbCqTeHuSvnT2qp6hPWICjfMm9OuLH2o">[google slides]</a>, video: <a href="https://drive.google.com/open?id=120toeWVULGov1lpqgoW_8d2dX-6yAb5b">[mp4]</a></li>
+                  <li>Team 5: 류호빈/이승우/정수빈 material: <a href="https://drive.google.com/open?id=1ymDb2DIPFeIxAXIb10Yk4UZbmZruCQWKi-54c-QwQ7Q">[google slides]</a>, video: <a href="https://drive.google.com/open?id=1aaWh9p7_3EUHHAh0ANsh0I2CVH7_r7ia">[mp4]</a></li>
+		  <li>Team 6: 김예준/박찬수/안석찬 material: <a href="https://drive.google.com/open?id=1faHW9Q7HP9od_-x1i5Cm2IVcG2RDNwMH">[pdf & mp4]</a>, video: <a href="https://drive.google.com/open?id=1uFceTcazxTrmAVdebse61SRS0PkHIe73">[mp4]</a></li>
+		  <li>Team 7: 김영석/김재헌/박재준 material: <a href="https://drive.google.com/open?id=1QEUIvVhqJx6Xl0BK0teZ3YF7tY2RptAI">[pdf]</a>, video: <a href="https://drive.google.com/open?id=158mmkLf-hp5yeVxjDLEAA8VaFeDXcC5r">[mp4]</a></li>
+                </ul>
+--->
+              </ul>
+            </ul>
+            <li>Final Presentation</li>
+              <ul>
+                <li>Each pitch should be in 10 minutes including Q&A, and it is STRONGLY recommended the presenters leave enough time for Q&A.</li>
+                <li>Grading criteria:</li>
+                <ul>
+                  <li>Problem (30%)</li>
+                  <ul>
+                    <li>Problem definition (10%): Is the refined final problem well-defined?</li>
+                    <li>Design goals & rationale (20%): Are the major design goals (specifications) and rationale for the selected approach clear?</li>
+                  </ul>
+                  <li>Progress (50%)</li>
+                  <ul>
+                    <li>Solution (20%): Does the final product improve any existing solutions?</li>
+                    <li>Implementation & functionality (30%): Does it provide a live demo? Does the implementation realize the initial specifications?
+</li>
+                  </ul>
+                  <li>Presentation (20%)</li>
+                  <ul>
+                    <li>Delivery (10%): Does the presentation well-organized? Does it flow well?  Is the story clear?
+</li>
+                    <li>Visual aids (10%): Are the slides readable?  Does the presentation use visual aids and examples effectively?
+</li>
+                  </ul>
+                </ul>
+		<li>Presentation Order:</li>
+<!--
+                <ul>
+                  <li>Team 1: 박연하/이현종/이혜진</li>
+                  <li>Team 2: 류호빈/이승우/정수빈</li>
+                  <li>Team 3: 신준형/안남조/이승우</li>
+                  <li>Team 4: 이준성/정창제/최낙현</li>
+                  <li>Team 5: 이주영/지수환/홍영규</li>
+                  <li>Team 6: 김영석/김재헌/박재준</li>
+                  <li>Team 7: 김예준/박찬수/안석찬</li>
+                </ul>
+-->
+              </ul>
+              </ul>
+              <li>Poster Session</li>
+              <ul>
+                <li>Evaluation: CS408 lecturers except mentors and four external reviewers</li>
+                <li>Each team should prepare a demo scenario of less than 4 minutes, which contains the functional components and actual use scenario of the project product.  The demo scenario should be reproducible for different reviewers.</li>
+                <li>Each team will have a booth with its poster and laptops+alpha for demos.  TAs will install the booths on June 1st (Friday).</li>
+                <li>Grading criteria:</li>
+                <ul>
+                  <li>Poster (50%, 1-5 scale)</li>
+                  <ul>
+                    <li>(5%) The poster is well structured (title, team members, etc.).  </li>
+                    <li>(15%) The poster states the problem clearly.</li>
+                    <li>(15%) The poster delivers the core functional requirements clearly.</li>
+                    <li>(15%) The poster delivers the technical challenges clearly.</li>
+                  </ul>
+                  <li>Demonstration (50%, 1-5 scale) </li>
+                  <ul>
+                    <li>(15%) The demonstration shows the key functionalities of the software clearly.</li>
+                    <li>(15%) The functionalities of the software is implemented completely.</li>
+                    <li>(10%) The demonstration successfully illustrates the actual usage scenario.</li>
+                    <li>(10%) The implemented interfaces provides acceptable usability.</li>
+              </ul>
+            </ul>
+          </div>
+        <div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div></div>
+  </div>
+
+<!--   <div class="row">
+    <div class="col-md-12">
+      <div class="bs-component">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <a name="dp0"></a>
+            <h3 class="panel-title">Design Project 0: Team Formation</h3>
+          </div>
+          <div class="panel-body">
+            <div class="due">Due: 11:59pm on 3/13 (Mon)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="bs-component">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <a name="dp1"></a>
+            <h3 class="panel-title">Design Project 1: Needfinding</h3>
+          </div>
+          <div class="panel-body">
+            <div class="due">Studio: 3/20 (Mon)</div>
+            <div class="due">Final Write-up: 11:59pm on 3/23 (Thu)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="bs-component">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <a name="dp2"></a>
+            <h3 class="panel-title">Design Project 2: Storyboards</h3>
+          </div>
+          <div class="panel-body">
+            <div class="due">Studio: 4/3 (Mon)</div>
+            <div class="due">Final Write-up: 11:59pm on 4/6 (Thu)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="bs-component">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <a name="dp3"></a>
+            <h3 class="panel-title">Design Project 3: Paper Prototyping</h3>
+          </div>
+          <div class="panel-body">
+            <div class="due">Studio: 4/10 (Mon)</div>
+            <div class="due">Final Write-up: 11:59pm on 4/13 (Thu)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="bs-component">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <a name="dp4"></a>
+            <h3 class="panel-title">Design Project 4: Lo-fi Prototyping</h3>
+          </div>
+          <div class="panel-body">
+            <div class="due">Studio: 4/24 (Mon)</div>
+            <div class="due">Final Write-up: 11:59pm on 4/27 (Thu)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="bs-component">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <a name="dp5"></a>
+            <h3 class="panel-title">Design Project 5: Mid-fi Prototyping</h3>
+          </div>
+          <div class="panel-body">
+            <div class="due">Studio: 5/8 (Mon)</div>
+            <div class="due">Final Write-up: 11:59pm on 5/11 (Thu)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="bs-component">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <a name="dp6"></a>
+            <h3 class="panel-title">Design Project 6: Hi-fi Prototyping</h3>
+          </div>
+          <div class="panel-body">
+            <div class="due">Studio: 5/22 (Mon)</div>
+            <div class="due">Final Write-up: 11:59pm on 5/25 (Thu)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="bs-component">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <a name="dp7"></a>
+            <h3 class="panel-title">Design Project 7: User Testing</h3>
+          </div>
+          <div class="panel-body">
+            <div class="due">Studio: 5/29 (Mon)</div>
+            <div class="due">Final Write-up: 11:59pm on 6/1 (Thu)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="bs-component">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <a name="dp8"></a>
+            <h3 class="panel-title">Design Project 8: Iteration & Wrap-up</h3>
+          </div>
+          <div class="panel-body">
+            <div class="due">Studio: 6/5 (Mon)</div>
+            <div class="due">Project Showcase & Final Submission: 1pm on 6/13 (Tue)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>       -->
+
+
+
+</div>
+
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="dist/js/ripples.min.js"></script>
+<script src="dist/js/material.min.js"></script>
+<script>
+  $(function () {
+    $.material.init();
+  });
+</script>
+
+</body>
+</html>
+
+
